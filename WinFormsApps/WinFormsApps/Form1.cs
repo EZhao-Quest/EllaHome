@@ -19,7 +19,11 @@ namespace WinFormsApps
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("you are so cute, haha");
+            MessageBox.Show("you are so cute, haha!!!");
+            if (MessageBox.Show("Are you sure about this?", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                MessageBox.Show("");
+            }
         }
     }
 }
