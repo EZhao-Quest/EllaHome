@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 -----------this file is for testing-------------------
 
 add new line
+=======
+-	d----------this file is for testing-------------------
+>>>>>>> ella modify
