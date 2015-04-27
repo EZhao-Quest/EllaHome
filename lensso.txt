@@ -8,4 +8,7 @@ add new line
 Ella add line3
 Ella add line2
 
+Ella1
+Ella2
+
 f1 commit
