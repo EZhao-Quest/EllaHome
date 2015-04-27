@@ -7,3 +7,5 @@ add new line
 >>>>>>> ella modify
 Ella add line3
 Ella add line2
+
+f1 commit
