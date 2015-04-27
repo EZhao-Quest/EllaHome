@@ -10,26 +10,21 @@ using System.Windows.Forms;
 
 namespace WinFormsApps
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("you are so cute, haha!!!");
-            if (MessageBox.Show("Are you sure about this?", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            {
-                MessageBox.Show("");
-            }
+            MessageBox.Show("I'm thinking about life, please do not disturb me");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
-            frm.ShowDialog();
+            MessageBox.Show("Here is the GIT Club,Are you a member yet?");
         }
     }
 }

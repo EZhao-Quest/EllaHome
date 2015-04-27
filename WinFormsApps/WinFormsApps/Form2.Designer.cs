@@ -1,16 +1,16 @@
 ﻿namespace WinFormsApps
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
-        /// 必需的设计器变量。
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// 清理所有正在使用的资源。
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Windows 窗体设计器生成的代码
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// 设计器支持所需的方法 - 不要
-        /// 使用代码编辑器修改此方法的内容。
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -34,33 +34,33 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(100, 105);
+            this.button1.Location = new System.Drawing.Point(42, 64);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Click Here";
+            this.button1.Size = new System.Drawing.Size(133, 31);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "hehe";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(98, 173);
+            this.button2.Location = new System.Drawing.Point(42, 127);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(76, 24);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "have fun";
+            this.button2.Size = new System.Drawing.Size(132, 34);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "hengheng";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.ResumeLayout(false);
 
         }
@@ -69,7 +69,5 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-
     }
 }
-
