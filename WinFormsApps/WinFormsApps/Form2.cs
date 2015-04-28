@@ -15,6 +15,14 @@ namespace WinFormsApps
         public Form2()
         {
             InitializeComponent();
+
+            btnStreamTesting.Click += btnStreamTesting_Click;
+        }
+
+        void btnStreamTesting_Click(object sender, EventArgs e)
+        {
+            StreamTest _test = new StreamTest(@"C:\StreamTest.txt", "C:\\StreamTest_Tgt.txt");
+            _test.Run();
         }
 
         private void button1_Click(object sender, EventArgs e)
