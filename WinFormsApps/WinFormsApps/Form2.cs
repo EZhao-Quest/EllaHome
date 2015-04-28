@@ -17,6 +17,18 @@ namespace WinFormsApps
             InitializeComponent();
 
             btnStreamTesting.Click += btnStreamTesting_Click;
+            btnSerializer.Click += btnSerializer_Click;
+        }
+
+        void btnSerializer_Click(object sender, EventArgs e)
+        {
+            string _dataFile = @"C:\Product.dat";
+            Serializer ser = new Serializer();
+            ser.SerializeProduct(_dataFile, new Product() { ID = 0, Name = "Product 0" });
+
+            Product prod = ser.DeserializeProduct(_dataFile);
+
+            MessageBox.Show(prod.ToString());
         }
 
         void btnStreamTesting_Click(object sender, EventArgs e)
