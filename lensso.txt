@@ -20,5 +20,10 @@ f4
 test vs
 test2
 
+<<<<<<< HEAD
+***************
+for feature for testing
+=======
 **************
 added in develop branch
+>>>>>>> develop
