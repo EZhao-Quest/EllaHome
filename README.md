@@ -8,3 +8,6 @@ they don’t have documentation published regarding this. they advice the value 
 workaround: 5 mins should not be necessary. 1 min should be enough. Another option is waiting first in container, then validate network is ready before starting business logic.
 
 nanoserve and linux no this issue.
+
+
+command: docker run [image] -url jenkinsServerRootUrl scerect agent_name 
