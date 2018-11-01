@@ -13,8 +13,6 @@ Expand-Archive ojdkbuild.zip -DestinationPath C:\
 Move-Item  -Path ('C:\{0}' -f ($JAVA_OJDKBUILD_ZIP -Replace '.zip$', ''))  -Destination $JAVA_HOME 
 Remove-Item ojdkbuild.zip -Force
 
-[Environment]::SetEnvironmentVariable('PATH', $env:path+';'+$JAVA_HOME + '\bin;', [EnvironmentVariableTarget]::Machine)
-
 
 $SLAVE_FILENAME='slave.jar'
 $REMOTING_VERSION='3.15'
