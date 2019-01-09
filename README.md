@@ -12,7 +12,9 @@ nanoserve and linux no this issue.
 
 command: docker run [image] -url jenkinsServerRootUrl scerect agent_name
 
-you need open your agent poort when you want to deploy it to ACI, command override format: powershell.exe,c:/slave-launch.ps1 -url jenkinsServerRootUrl scerect agent_name
+you need open your agent poort when you want to deploy it to ACI, Portal command override format: powershell.exe,c:/slave-launch.ps1 -url jenkinsServerRootUrl scerect agent_name
+
+Jenkins command override format: powershell.exe c:/slave-launch.ps1 -url jenkinsServerRootUrl scerect agent_name
 
 
 
